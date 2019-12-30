@@ -1,4 +1,5 @@
 $servName = Read-Host "Veuillez saisir le nom du service"
+#test
 Write-Host "Voici les services trouvés : "
 $services = Get-Service "*$servName*"
 if ($services.Count -gt 0)
